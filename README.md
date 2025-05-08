@@ -1,7 +1,8 @@
 # FPiGA-Audio-Hat
 This repository contains software source, driver source, FPGA designs, hardware resources, and other supporting resources for the RCT FPiGA Audio Hat platform.
 
-![Front Facing Tile](https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/blob/main/FPiGA_Audio-fwdtilt.jpg "Front Facing Tile")
+![Front Facing Tilt](https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/blob/main/FPiGA_Audio-fwdtilt.jpg "Front Facing Tile")
+![Overhead](ttps://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/blob/main/FPiGA_Audio-overhead.png "Overhead")
 
 ## Features
 * Multiple Audio Pathways offering Real time, single sample latency processing via FPGA Module
