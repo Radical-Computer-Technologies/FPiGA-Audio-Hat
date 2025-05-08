@@ -20,7 +20,7 @@ This repository contains software source, driver source, FPGA designs, hardware 
 * Custom (tuned) Pi OS Image for Audio Use w/ supporting software/drivers for hat board
 
 ## FPGA Info
-The FPiGA Audio Hat utilized a Sipeed Tang Primer 25k module in conjunction with a Raspberry Pi style platform. 
+The FPiGA Audio Hat utilizes a Sipeed Tang Primer 25k module in conjunction with a Raspberry Pi style platform. 
 
 ## Supported Platforms
 * Raspberry Pi 3, 4, 5, CM4, CM5, Zero, Zero 2 W,
