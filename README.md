@@ -1,5 +1,5 @@
 # FPiGA-Audio-Hat
-This repository contains software source, driver source, FPGA designs, hardware resources, and other supporting resources for the RCT FPiGA Audio Hat platform.
+This repository contains software source, driver source, FPGA designs, hardware resources, and other supporting resources for Radical Computer Technologies's FPiGA Audio Hat platform.
 
 ![Front Facing Tilt](https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/blob/main/FPiGA_Audio-fwdtilt.jpg "Front Facing Tile")
 ![Overhead](https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/blob/main/FPiGA_Audio-overhead.png "Overhead")
