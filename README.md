@@ -17,7 +17,7 @@ This repository contains software source, driver source, FPGA designs, hardware 
 * Long pins through 40 Pin header as well as 8 pin breakout from FPGA IO (To support expansion via hat stacking)
 * UART In and Thru Out MIDI Driver Integration
 * USB Midi Integration
-* Custom (tuned) Pi OS Image for Audio Use
+* Custom (tuned) Pi OS Image for Audio Use w/ supporting software/drivers for hat board
 
 ## FPGA Info
 The FPiGA Audio Hat utilized a Sipeed Tang Primer 25k module in conjunction with a Raspberry Pi style platform. 
