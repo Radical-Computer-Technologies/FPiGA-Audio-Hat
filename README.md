@@ -24,5 +24,5 @@ The FPiGA Audio Hat utilized a Sipeed Tang Primer 25k module in conjunction with
 
 ## Supported Platforms
 * Raspberry Pi 3, 4, 5, CM4, CM5, Zero, Zero 2 W,
-* Rock Pi 3C, Rock Pi CM3, and Rock Pi 5.
-* Orange Pi Platforms (Possibly)
+* Rock Pi 3C, Rock Pi Zero 3W, Rock Pi CM3, and Rock Pi 5.
+* Orange Pi Platforms (Planned)
