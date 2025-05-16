@@ -43,17 +43,13 @@ The FPiGA Audio Hat utilizes a Sipeed Tang Primer 25k module in conjunction with
 * Rock Pi 3C, Rock Pi Zero 3W, Rock Pi CM3, and Rock Pi 5. (Planned)
 * Orange Pi Platforms (Planned)
 
-## Data Flow
-![Data Flow](https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/blob/main/photos/FPiGA-Audio-1.0-DataFlow.png "Data Flow")
 
-## FPiGA Audio Core Design
+## Provided Designs
+* [FPiGA Audio Core Design](https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/)
 
-The FPiGA hat is fully open, so there's no need for using a prebuilt design, but to act as a starting point or example, a core design project has been 
-designed using the FPiGA Core Lib which can be found at its own repo here:
-https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/
+## Guides
+* [FPiGA Audio Core Design](https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/)
 
-The FPiGA Audio Hat core design source and further can be found in thise repo's CoreDesign folder here:
-https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/blob/main/CoreDesign
 
-A system overview diagram of this design is below:
-![Core Design](https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/blob/main/photos/FPiGA-Audio-1.0-FPGA-CoreDesign.png "Core Design")
+
+

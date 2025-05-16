@@ -1,0 +1,3 @@
+[submodule "CoreDesign/Source/FPiGA-CoreLib"]
+	path = CoreDesign/Source/FPiGA-CoreLib
+	url = https://github.com/Radical-Computer-Technologies/FPiGA-CoreLib
