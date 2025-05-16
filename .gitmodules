@@ -3,4 +3,4 @@
 	url = https://github.com/Radical-Computer-Technologies/FPiGA-CoreLib
 [submodule "CoreDesign-Circle/Source/circle"]
 	path = CoreDesign-Circle/Source/circle
-	url = https://github.com/rsta2/circle
+	url = https://github.com/Radical-Computer-Technologies/circle-fpiga
