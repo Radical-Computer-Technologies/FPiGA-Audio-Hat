@@ -1,3 +1,6 @@
 [submodule "CoreDesign/Source/FPiGA-CoreLib"]
 	path = CoreDesign/Source/FPiGA-CoreLib
 	url = https://github.com/Radical-Computer-Technologies/FPiGA-CoreLib
+[submodule "CoreDesign-Circle/circle"]
+	path = CoreDesign-Circle/circle
+	url = https://github.com/rsta2/circle
