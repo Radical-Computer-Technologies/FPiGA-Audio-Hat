@@ -46,6 +46,7 @@ The FPiGA Audio Hat utilizes a Sipeed Tang Primer 25k module in conjunction with
 
 ## Provided Designs
 * [FPiGA Audio Core Design](https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/blob/main/CoreDesign)
+* [FPiGA Audio Bare Metal Core Design](https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/blob/main/CoreDesign-Circle)
 
 ## Guides
 * [User Guide](https://github.com/Radical-Computer-Technologies/FPiGA-Audio-Hat/blob/main/userguide.md)
