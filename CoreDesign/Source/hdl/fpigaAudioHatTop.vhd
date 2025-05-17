@@ -101,6 +101,15 @@ component FPiGA_I2S is
   );
 end component;
 
+component Dsp_PLL is
+    port (
+        lock: out std_logic;
+        clkout0: out std_logic;
+        clkout1: out std_logic;
+        clkin: in std_logic
+    );
+end component;
+
 signal sysclk_i             :  std_logic;
 signal rstn_i               :  std_logic;
 signal softrst_i            :  std_logic_vector(7 downto 0);
@@ -127,6 +136,15 @@ signal pidinrdy_i         :  std_logic;
 signal pidoutrdy_i        :  std_logic;
 
 begin
+
+ dsp_pll_i : Dsp_PLL
+   port map ( 
+   clkout0 => sysclk_i,
+   clkout1 => open,
+   lock => rstn_i,
+   clkin => CLK_50M
+ );   
+
 i2ccore : FPiGA_I2C 
 	generic map(
 		ID_REGISTER => x"01";
