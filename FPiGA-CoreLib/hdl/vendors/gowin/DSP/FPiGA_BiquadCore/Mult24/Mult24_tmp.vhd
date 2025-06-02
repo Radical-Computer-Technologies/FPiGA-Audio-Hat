@@ -5,26 +5,30 @@
 --Part Number: GW5A-LV25MG121NC1/I0
 --Device: GW5A-25
 --Device Version: B
---Created Time: Fri Mar 28 02:56:43 2025
+--Created Time: Fri May 16 21:37:51 2025
 
 --Change the instance name and port connections to the signal names
 ----------Copy here to design--------
 
-component dsp_pll
+component Mult24
     port (
-        lock: out std_logic;
-        clkout0: out std_logic;
-        clkout1: out std_logic;
-        clkin: in std_logic
+        dout: out std_logic_vector(47 downto 0);
+        a: in std_logic_vector(23 downto 0);
+        b: in std_logic_vector(23 downto 0);
+        clk: in std_logic;
+        ce: in std_logic;
+        reset: in std_logic
     );
 end component;
 
-your_instance_name: dsp_pll
+your_instance_name: Mult24
     port map (
-        lock => lock,
-        clkout0 => clkout0,
-        clkout1 => clkout1,
-        clkin => clkin
+        dout => dout,
+        a => a,
+        b => b,
+        clk => clk,
+        ce => ce,
+        reset => reset
     );
 
 ----------Copy end-------------------
