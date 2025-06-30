@@ -1,0 +1,7 @@
+/home/pi/fpiga/fpigaAudioTest/build/CMakeFiles/fpigaTest.dir
+/home/pi/fpiga/fpigaAudioTest/build/CMakeFiles/edit_cache.dir
+/home/pi/fpiga/fpigaAudioTest/build/CMakeFiles/rebuild_cache.dir
+/home/pi/fpiga/fpigaAudioTest/build/CMakeFiles/list_install_components.dir
+/home/pi/fpiga/fpigaAudioTest/build/CMakeFiles/install.dir
+/home/pi/fpiga/fpigaAudioTest/build/CMakeFiles/install/local.dir
+/home/pi/fpiga/fpigaAudioTest/build/CMakeFiles/install/strip.dir
