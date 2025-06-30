@@ -1,0 +1,29 @@
+-series GW5A
+-device GW5A-25
+-device_version B
+-package MBGA121N
+-part_number GW5A-LV25MG121NC1/I0
+
+
+-mod_name Mult24
+-file_name Mult24
+-path /home/jvincent/gowin/IDE/bin/fpga_project/src/gowin_mult/
+-type MULT
+-file_type vhdl
+-width_a 24
+-width_b 24
+-data_signed_a 1
+-data_signed_b 1
+-width_out 48
+-en_padd 0
+-reset_mode sync
+-ina_reg_clk 1
+-ina_reg_ce 0
+-ina_reg_rst 0
+-inb_reg_clk 1
+-inb_reg_ce 0
+-inb_reg_rst 0
+-pipe_reg_clk 0
+-out_reg_clk 1
+-out_reg_ce 0
+-out_reg_rst 0
