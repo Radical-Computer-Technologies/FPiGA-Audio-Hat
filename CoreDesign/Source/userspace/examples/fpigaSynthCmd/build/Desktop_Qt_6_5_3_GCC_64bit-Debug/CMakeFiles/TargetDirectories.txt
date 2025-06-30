@@ -1,0 +1,7 @@
+/home/jvincent/Documents/projects/radcomp/audiodsp/FPiGA-Audio-Hat/CoreDesign/Source/userspace/FPiGA_Synth_CmdLine/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/fpigaSynthCmd.dir
+/home/jvincent/Documents/projects/radcomp/audiodsp/FPiGA-Audio-Hat/CoreDesign/Source/userspace/FPiGA_Synth_CmdLine/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/jvincent/Documents/projects/radcomp/audiodsp/FPiGA-Audio-Hat/CoreDesign/Source/userspace/FPiGA_Synth_CmdLine/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/jvincent/Documents/projects/radcomp/audiodsp/FPiGA-Audio-Hat/CoreDesign/Source/userspace/FPiGA_Synth_CmdLine/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
+/home/jvincent/Documents/projects/radcomp/audiodsp/FPiGA-Audio-Hat/CoreDesign/Source/userspace/FPiGA_Synth_CmdLine/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/install.dir
+/home/jvincent/Documents/projects/radcomp/audiodsp/FPiGA-Audio-Hat/CoreDesign/Source/userspace/FPiGA_Synth_CmdLine/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/install/local.dir
+/home/jvincent/Documents/projects/radcomp/audiodsp/FPiGA-Audio-Hat/CoreDesign/Source/userspace/FPiGA_Synth_CmdLine/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/install/strip.dir

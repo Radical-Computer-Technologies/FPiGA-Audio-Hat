@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ad6b77d27c7b517988d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fpigaSynthCmd",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fpigaSynthCmd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fpigaSynthCmd-Debug-a9e79e66a2ec51434131.json",
+					"name" : "fpigaSynthCmd",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jvincent/Documents/projects/radcomp/audiodsp/FPiGA-Audio-Hat/CoreDesign/Source/userspace/FPiGA_Synth_CmdLine/build/Desktop_Qt_6_5_3_GCC_64bit-Debug",
+		"source" : "/home/jvincent/Documents/projects/radcomp/audiodsp/FPiGA-Audio-Hat/CoreDesign/Source/userspace/FPiGA_Synth_CmdLine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

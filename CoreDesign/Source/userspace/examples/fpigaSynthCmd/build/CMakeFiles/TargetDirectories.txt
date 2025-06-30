@@ -1,0 +1,7 @@
+/home/pi/fpiga/fpigaSynthCmd/build/CMakeFiles/fpigaSynthCmd.dir
+/home/pi/fpiga/fpigaSynthCmd/build/CMakeFiles/edit_cache.dir
+/home/pi/fpiga/fpigaSynthCmd/build/CMakeFiles/rebuild_cache.dir
+/home/pi/fpiga/fpigaSynthCmd/build/CMakeFiles/list_install_components.dir
+/home/pi/fpiga/fpigaSynthCmd/build/CMakeFiles/install.dir
+/home/pi/fpiga/fpigaSynthCmd/build/CMakeFiles/install/local.dir
+/home/pi/fpiga/fpigaSynthCmd/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/fpigaSynthCmd.dir/main.cpp.o -o fpigaSynthCmd  -lFPiGA_AudioLib -lrtmidi 
