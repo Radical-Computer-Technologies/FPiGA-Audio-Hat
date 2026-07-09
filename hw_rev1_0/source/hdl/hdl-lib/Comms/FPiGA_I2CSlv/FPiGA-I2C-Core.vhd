@@ -106,7 +106,8 @@ architecture rtl of FPiGA_I2C is
             DATA_OUT	: out	std_logic_vector(7 downto 0);
             DATA_IN		: in	std_logic_vector(7 downto 0);
             WR			: out	std_logic;
-            RD			: out	std_logic
+            RD			: out	std_logic;
+            READ_DONE   : out   std_logic
         );
     end component;
 
@@ -190,7 +191,8 @@ Osc3Vol =>Osc3Vol,
 			DATA_OUT	=> ramdin,
 			DATA_IN		=> i2cdatain_i,
 			WR			=> ramwren,
-			RD			=> ramrden
+			RD			=> ramrden,
+            READ_DONE   => open
 		);
 
 	B8 : process(SYSCLK,RSTN)

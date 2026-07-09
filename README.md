@@ -38,6 +38,15 @@ A basic diagram of the system design is below:
 ### FPGA Build
 The FPGA project source can be built using the Gowin EDA Toolset. All source for this can be found in the hw_rev1_0/source/hdl directory.
 
+The source tree now includes the Gowin-specific PLL, BRAM, and DSP multiplier wrappers that the top level instantiates. Build the FPGA from a machine with Gowin EDA installed:
+
+```sh
+cd hw_rev1_0/source/hdl
+./build_gowin.sh
+```
+
+By default the script targets `GW5A-LV25MG121NC1/I0` device version `A`, uses `/home/jvincent/gowin`, runs `gw_sh` headlessly, and verifies that a non-empty `.fs` bitstream plus clean synthesis/PnR logs were produced. The board constraints are kept in `i2c_25k.cst`; the generated Gowin project enables SSPI and CPU pins as GPIO so the `CLK_50M` constraint on `E2` is legal. Override `FPIGA_GOWIN_PART`, `FPIGA_GOWIN_DEVICE_VERSION`, `GOWIN_HOME`, or `FPIGA_GOWIN_BUILD_DIR` when building for a different local installation or board revision.
+
 ### Raspberry Pi Source
 
 #### Device Tree Overlay
@@ -50,6 +59,3 @@ From here you will need to install the overlay and modify the /boot/firmware/con
 #### Library and Examples
 Source for the userspace library and examples can be found in the hw_rev1_0/source/userspace folder. Copying this folder to the Raspberry Pi and running the included 
 buildall.sh file will build all source and examples.
-
-
-

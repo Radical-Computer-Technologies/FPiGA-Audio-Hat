@@ -208,7 +208,7 @@ signal      oscWavs : OscWaves;
 
 --I2S Signals
 signal sda_dac        :  std_logic :='0';
-signal wavewren_i : stD_logic := '0';
+signal wavewren_i : std_logic := '0';
 signal wavesel_i : integer range 0 to 3;
 signal wavewrdat_i :  std_logic_vector(23 downto 0);
 signal wavewrrdy_i :   std_logic;

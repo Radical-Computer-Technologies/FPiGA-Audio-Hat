@@ -158,8 +158,10 @@ signal     voice_sel_i   :  integer range 0 to 15;
 signal     wave_wsample_i :  std_logic_vector(23 downto 0);
 
 signal     dsp_mult_dout : signed(47 downto 0);
+signal     dsp_mult_dout_slv : std_logic_vector(47 downto 0);
 signal     dsp_mult_dina : signed(23 downto 0);
 signal     dsp_mult_dinb : signed(23 downto 0);
+signal     dsp_mult_reset : std_logic;
 signal     mix_cnt : integer range 0 to 3;
 signal     mixosc_cnt : integer range 0 to 6;
 
@@ -239,23 +241,18 @@ begin
     end if;
 end process;
 
---mixer_mult: AUD_DSP_MULT
---    port map (
---        dout => mix_mult_dout,
---        a => mix_mult_dina,
---        b => mix_mult_dinb,
---        clk => SYSCLK,
---        ce => '1',
---        reset => '1'
---    );
+dsp_mult_reset <= not SYS_RSTN;
+dsp_mult_dout <= signed(dsp_mult_dout_slv);
 
-dsp_mult_0 : process(SYSCLK)
-begin
-    if rising_edge(SYSCLK)then
-            dsp_mult_dout <= dsp_mult_dina * dsp_mult_dinb;
-    end if;
-
-end process;
+dsp_mult_0: AUD_DSP_MULT
+    port map (
+        dout => dsp_mult_dout_slv,
+        a => std_logic_vector(dsp_mult_dina),
+        b => std_logic_vector(dsp_mult_dinb),
+        clk => SYSCLK,
+        ce => '1',
+        reset => dsp_mult_reset
+    );
 
 dsp_processor : process(SYSCLK)
 
@@ -683,4 +680,3 @@ begin
 end process;
 
 end Behavioral;
-
